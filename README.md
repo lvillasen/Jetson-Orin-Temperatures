@@ -1,4 +1,4 @@
-# Jetson Orin Temperature Monitor 
+# Jetson Orin Temperature-Monitor Webpage
 
 Monitor the temperatures of a Jetson Orin on a remote web server
 home/your-user-id

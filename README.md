@@ -5,16 +5,16 @@ home/your-user-id
 Tested only on a Jetson Orin AGX 
 
 ### Instructions
-clone the repository into the jetson and a remote web server
+- Clone the repository into the jetson and a remote web server
 
-On the jetson type 
+- On the jetson type 
 ``` crontab -e ```
 and add this line
 ``` */5 * * * * /usr/bin/python3 /home/home/your-user-id/jetson/temperature.py > /home/your-user-id/cron-log.txt 2>&1 ```
 
-create a folder named jetson on the web server on /var/www/html and copy the files from web-server
+- Create a folder named jetson on the web server on /var/www/html and copy the files from web-server
 
-On your web server create a new mySQL database with
+- On your web server create a new mySQL database with
 ```
 CREATE DATABASE jetson;
 USE jetson;

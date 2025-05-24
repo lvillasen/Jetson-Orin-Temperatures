@@ -35,8 +35,9 @@ CREATE TABLE `jetson_temps` (
   `date_time_rec` DATETIME
 );
 ```
-- Modify lines with XXXXX on the php files according with your credentials to access mySQL 
-If all works well you can see the jetson temperatures on https://your-web-server-IP/jetson
+- Modify the lines marked with with XXXXX on the php files according with your credentials to access mySQL
+  
+- If all works well you can see the jetson temperatures on https://your-web-server-IP/jetson
      
 
 

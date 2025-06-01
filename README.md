@@ -22,8 +22,8 @@ and add this line
 
 - Create a folder named jetson on the web server on /var/www/html and copy the files from web-server into this folder
 
-- On your web server create a new mySQL database with
-- 
+- On your web server create a new mySQL database with the following commands:
+   
 ```
 CREATE DATABASE jetson;
 USE jetson;

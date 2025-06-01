@@ -8,12 +8,12 @@ Tested only on a Jetson Orin AGX
 ### Instructions
 - Clone the repository into the jetson and a into your remote web server
 
-- On the jetson create a folder on /home/your-user-id/Temperature-Monitor and copy the file temperature.py
+- On the jetson create a folder on /home/your-user-id/jetson and copy the file temperature.py
 
 - On the jetson type 
 ``` crontab -e ```
 and add this line
-``` */5 * * * * /usr/bin/python3 /home/home/your-user-id/Temperature-Monitor/temperature.py > /home/your-user-id/cron-log.txt 2>&1 ```
+``` */5 * * * * /usr/bin/python3 /home/home/your-user-id/jetson/temperature.py > /home/your-user-id/cron-log.txt 2>&1 ```
 
 - Create a folder named jetson on the web server on /var/www/html and copy the files from web-server
 

@@ -15,6 +15,7 @@ Tested only on a Jetson Orin AGX
 - On the jetson type
  
 ``` crontab -e ```
+
 and add this line
 
 ``` */5 * * * * /usr/bin/python3 /home/home/your-user-id/jetson/temperature.py > /home/your-user-id/cron-log.txt 2>&1 ```
@@ -43,7 +44,7 @@ CREATE TABLE `jetson_temps` (
 ```
 - Modify the lines marked with with XXXXX on the php files according with your credentials to access mySQL
   
-- If all works well you can see the jetson temperatures on https://your-web-server-IP/jetson
+- You can monitor the jetson temperatures on https://your-web-server-IP/jetson
      
 
 

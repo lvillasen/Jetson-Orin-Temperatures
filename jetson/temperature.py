@@ -38,7 +38,7 @@ def enviar_temperaturas():
 
     try:
         conn = http.client.HTTPSConnection("your-web-server-IP", context=ssl_context)
-        conn.request("POST", "/your-web-page-name/save_temps.php", params, headers)
+        conn.request("POST", "/jetson/save_temps.php", params, headers)
         response = conn.getresponse()
         if response.status == 200:
             print("Datos enviados:", data)

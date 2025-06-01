@@ -13,9 +13,8 @@ Tested only on a Jetson Orin AGX
 - Change your-web-server-IP to your web server IP address on the file temperature.py 
 
 - On the jetson type
-- 
+ 
 ``` crontab -e ```
-
 and add this line
 
 ``` */5 * * * * /usr/bin/python3 /home/home/your-user-id/jetson/temperature.py > /home/your-user-id/cron-log.txt 2>&1 ```

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <!-- Write your comments here -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/
+MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+    ></script>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/9.3.2/math.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/6.1.0/math.js"></script>
+    <title>Jetson</title>
+    <link
+      href="https://ciiec.buap.mx/Pagina-CIIEC/ciiec-logo.png"
+      rel="icon"
+      type="image/x-icon"
+    />
+
+    <link rel="stylesheet" href="./jetson.css" />
+  </head>
+
+  <body>
+    
+<div
+      class="block_container"
+      style="background-color: #00b5e2; margin-left: 10%; margin-right: 10%"
+    >
+    
+      <h2>Jetson Orin AGX Temperatures </h2>
+
+      <br />
+
+      <label for="start">Start Date:</label>
+
+      <input
+        type="datetime-local"
+        id="start_date"
+        value="2024-07-27T20:00"
+        min="2024-07-01T00:00" 
+      />
+
+      <br />
+      <label for="Final Date">Final Date:</label>
+
+      <input
+        type="datetime-local"
+        id="final_date"
+        value="2024-07-29T00:00"
+        min="2023-10-01T00:00" 
+      />
+      <button class="favorite styled" onclick="fetchData()">Fetch Data</button>
+      
+      <hr />
+
+  
+
+      <div id="plot_1" style="border: solid 5px #003b5c; width: 100%"></div>
+      <br />
+      <hr />
+      
+    </div>
+
+  </body>
+
+  <script type="text/javascript" src="./jetson.js"></script>
+</html>

@@ -1,6 +1,6 @@
-# Jetson Orin Temperature-Monitor Webpage
+# Jetson Orin Temperatures Webpage
 
-Monitor the temperatures of a Jetson Orin on a remote web server
+Monitor the temperatures of a Jetson Orin on a webpage
 home/your-user-id
 
 Tested only on a Jetson Orin AGX 

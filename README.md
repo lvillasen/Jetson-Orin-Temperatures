@@ -10,7 +10,7 @@ Tested only on a Jetson Orin AGX
 
 - On the jetson copy the folder named jetson on /home/your-user-id/
 
-- Change your-web-server-IP to your IP address on the file temperatures.py 
+- Change your-web-server-IP to your web server IP address on the file temperature.py 
 
 - On the jetson type 
 ``` crontab -e ```
